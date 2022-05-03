@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPost from './Components/DisplayPosts/DisplayPost';
+import NavBar from './Components/NavBar/NavBar';
+import './App.css'
 
 function App() {
 
@@ -14,13 +16,20 @@ function App() {
   }
 
   return (
-    <div >
-        <h3>Social Feed</h3>
-        <div>
-          <CreatePost addNewPostProperty={addNewPost}/>
-          <DisplayPost parentPosts={posts}/>
-        </div>
-    </div>
+    
+  <body>
+    <header>
+      <NavBar/>
+    </header>
+    <main className='main'>
+      <div>
+        <CreatePost addNewPostProperty={addNewPost}/>
+      </div>
+      <div>
+        <DisplayPost parentPosts={posts}/>  
+      </div>
+    </main>
+  </body>
   );
 }
 
