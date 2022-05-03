@@ -1,0 +1,12 @@
+.post {
+    text-align: left;
+}
+.base {
+    background-color: white;
+}
+.like {
+    background-color: lawngreen;
+}
+.dislike {
+    background-color: red;
+}
