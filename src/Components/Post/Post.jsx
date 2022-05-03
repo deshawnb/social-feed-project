@@ -1,18 +1,12 @@
 
 const Post = (props) => {
     return (
-        <div>
-          {props.parentPosts.map((post) => {
-            return (
-              <div>
-                <p>{post.name}</p>
-                <p>{post.comment}</p>
-                <button>Like</button>
-                <button>Dislike</button>
-              </div>
-            );
-          })}
-        </div>
+      <div>
+        <p>{props.name}</p>
+        <p>{props.comment}</p>
+        <button>Like</button>
+        <button>Dislike</button>
+      </div>
     );
 }
 
