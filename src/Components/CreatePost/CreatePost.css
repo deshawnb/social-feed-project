@@ -1,0 +1,18 @@
+.create {
+    background-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    height: 120px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+}
+.button2 {
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    float: right;
+}

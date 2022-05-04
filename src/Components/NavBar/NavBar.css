@@ -1,10 +1,12 @@
 .topnav {
     overflow: hidden;
     background-color: white;
-    position: static;
+    position: fixed;
+    border-radius: opx;
     top: 0;
     height: 50px;
     width: 100%;
+    margin: 0px;
 }
 
 .topnav a {

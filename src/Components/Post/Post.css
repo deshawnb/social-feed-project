@@ -1,5 +1,8 @@
 .post {
-    text-align: left;
+    background-color: white;
+    border-bottom: groove;
+    padding: 20px;
+    height: 200px;
 }
 .base {
     background-color: white;
@@ -10,3 +13,12 @@
 .dislike {
     background-color: red;
 }
+.button {
+    display: block;
+    float: right;
+    margin: 10px;
+}
+/* button {
+    border-style: groove;
+    border-radius: 10px;
+} */

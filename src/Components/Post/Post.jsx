@@ -31,8 +31,8 @@ const Post = (props) => {
   return (
     <div className="post">
       <p>{props.name}</p>
-      <p>{props.comment}</p>
-      <div>
+      <p style={{overflow: 'scroll', height: '50px'}}>{props.comment}</p>
+      <div className="button">
         <button className={like} onClick={liked}>Like</button>
         <button className={dislike} onClick={disliked}>Dislike</button>
       </div>

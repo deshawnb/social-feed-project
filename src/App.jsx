@@ -10,7 +10,7 @@ function App() {
 
   function addNewPost(post){
 
-    let tempPosts = [post, ...posts];
+    let tempPosts = [...posts,post ];
 
     setPosts(tempPosts);
   }
@@ -21,7 +21,7 @@ function App() {
     <header>
       <NavBar/>
     </header>
-    <main className='main'>
+    <main>
       <div>
         <CreatePost addNewPostProperty={addNewPost}/>
       </div>

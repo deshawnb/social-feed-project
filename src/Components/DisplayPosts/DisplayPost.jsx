@@ -1,8 +1,9 @@
 import Post from "../Post/Post";
+import './DisplayPost.css'
 
 const DisplayPost = (props) => {
     return (
-        <div>
+        <div className="display">
           {props.parentPosts.map((post) => {
             return (
               <div>
