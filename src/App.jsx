@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
 
-  const [posts, setPosts] = useState([{name: 'Billy Bob', comment: 'This is a test, would you not agree?'},{name: 'Sally May', comment: 'I am inevitable'}])
+  const [posts, setPosts] = useState([{name: 'Billy Bob', comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt '},{name: 'Sally May', comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt '}])
 
   function addNewPost(post){
 

@@ -18,7 +18,6 @@
     float: right;
     margin: 10px;
 }
-/* button {
-    border-style: groove;
-    border-radius: 10px;
-} */
+.p {
+    overflow: 'auto'
+}
